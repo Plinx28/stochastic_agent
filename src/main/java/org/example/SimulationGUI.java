@@ -180,7 +180,8 @@ public class SimulationGUI extends JFrame {
             disableMovementButtons();
             statusLabel.setText("Агент достиг целевого состояния с наградой " + currentState.getReward());
         } else {
-            statusLabel.setText("Агент переместился в позицию (" + currentState.getX() + ", " + currentState.getY() + ")");
+            statusLabel.setText("Агент переместился в позицию (" + currentState.getX() + ", " +
+                    currentState.getY() + ")");
         }
     }
 

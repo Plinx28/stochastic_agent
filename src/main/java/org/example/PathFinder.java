@@ -32,7 +32,7 @@ public class PathFinder {
                 }
             }
         }
-        System.out.println("No path found");
+        System.out.println("No path found from " + start + " to " + goal);
         return Collections.emptyList(); // Путь не найден
     }
 
